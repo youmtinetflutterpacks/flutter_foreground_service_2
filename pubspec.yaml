@@ -1,0 +1,20 @@
+name: flutter_foreground_service
+description: Foreground service for the Android platform, keeps app running even when in background.
+version: 0.4.1
+homepage: https://github.com/cph-cachet/flutter-plugins
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dk.cachet.flutter_foreground_service
+        pluginClass: FlutterForegroundServicePlugin
